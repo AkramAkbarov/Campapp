@@ -7,9 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.viewpager.widget.ViewPager
-import com.akramia.campapp.DailyToursFragment
-import com.akramia.campapp.HomeInnerFragment
-import com.akramia.campapp.HomePagerAdapter
+import com.akramia.campapp.homefragment.DailyToursFragment
+import com.akramia.campapp.homefragment.HomeInnerFragment
+import com.akramia.campapp.adapter.HomePagerAdapter
 import com.akramia.campapp.R
 import com.google.android.material.tabs.TabLayout
 

@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/dailyToursFragment"
-        android:name="com.akramia.campapp.DailyToursFragment"
+        android:name="com.akramia.campapp.homefragment.DailyToursFragment"
         android:label="fragment_daily_tours"
         tools:layout="@layout/fragment_daily_tours" />
     <fragment

@@ -1,6 +1,4 @@
-package com.akramia.campapp
-
-
+package com.akramia.campapp.modelshomedata
 
 data class Camp(
     val name: String,

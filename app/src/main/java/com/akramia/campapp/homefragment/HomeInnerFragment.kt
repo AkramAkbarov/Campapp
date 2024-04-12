@@ -1,14 +1,15 @@
-package com.akramia.campapp
+package com.akramia.campapp.homefragment
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.GridView
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.akramia.campapp.adapter.CampAdapter
+import com.akramia.campapp.R
 import com.akramia.campapp.databinding.FragmentHomeInnerBinding
+import com.akramia.campapp.modelshomedata.Camp
 
 class HomeInnerFragment : Fragment() {
     private lateinit var GridView: RecyclerView

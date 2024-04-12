@@ -1,4 +1,4 @@
-package com.akramia.campapp
+package com.akramia.campapp.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager

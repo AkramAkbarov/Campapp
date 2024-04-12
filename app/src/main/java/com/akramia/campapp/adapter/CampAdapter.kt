@@ -1,4 +1,4 @@
-package com.akramia.campapp
+package com.akramia.campapp.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,20 +6,22 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.akramia.campapp.R
+import com.akramia.campapp.modelshomedata.Camp
 
 
 class CampAdapter(
 
     private val camps: List<Camp>,
 
-) : RecyclerView.Adapter<CampAdapter.ViewHolder>() {
+    ) : RecyclerView.Adapter<CampAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.camp_item, parent, false)
         return ViewHolder(view)
     }
 
-    override fun onBindViewHolder(holder:ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val camp = camps[position]
         holder.CampName.text = camp.name
         holder.TextPrice.text = camp.price.toString()

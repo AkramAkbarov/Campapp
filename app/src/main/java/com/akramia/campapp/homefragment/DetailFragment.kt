@@ -1,10 +1,11 @@
-package com.akramia.campapp
+package com.akramia.campapp.homefragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.akramia.campapp.R
 
 class DetailFragment : Fragment() {
 
