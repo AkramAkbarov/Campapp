@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.akramia.campapp.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_favoriFragment"
+            app:destination="@id/favoriFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dailyToursFragment"
+        android:name="com.akramia.campapp.DailyToursFragment"
+        android:label="fragment_daily_tours"
+        tools:layout="@layout/fragment_daily_tours" />
+    <fragment
+        android:id="@+id/myCampFragment"
+        android:name="com.akramia.campapp.fragment.MyCampFragment"
+        android:label="fragment_my_camp"
+        tools:layout="@layout/fragment_my_camp" >
+        <action
+            android:id="@+id/action_myCampFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriFragment"
+        android:name="com.akramia.campapp.fragment.FavoriFragment"
+        android:label="fragment_favori"
+        tools:layout="@layout/fragment_favori" >
+        <action
+            android:id="@+id/action_favoriFragment_to_myCampFragment"
+            app:destination="@id/myCampFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.akramia.campapp.fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

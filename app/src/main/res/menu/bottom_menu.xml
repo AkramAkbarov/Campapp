@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/HomeFragment"
+        android:enabled="true"
+        android:icon="@drawable/img_12"
+        android:title="Home"
+        app:showAsAction="always"/>
+    <item android:id="@+id/FavoriFragment"
+        android:enabled="true"
+        android:icon="@drawable/img_13"
+        android:title="Saved"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/MyCampFragment"
+        android:enabled="true"
+        android:icon="@drawable/img_14"
+        android:title="My Camp"
+        app:showAsAction="always"/>
+    <item android:id="@+id/ProfilFragment"
+        android:enabled="true"
+        android:icon="@drawable/img_15"
+        android:title="Profile"
+        app:showAsAction="always"/>
+
+</menu>
