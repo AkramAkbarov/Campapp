@@ -17,32 +17,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/TextUser"
-                android:layout_width="73dp"
-                android:layout_height="20dp"
-                android:layout_marginStart="4dp"
-                android:text="Salam Hacı"
-                android:gravity="center"
-                android:textSize="12dp"
+            <ImageView
+                android:layout_width="155dp"
+                android:layout_height="44dp"
+                android:background="@drawable/img_2"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.04" />
-
-            <TextView
-                android:id="@id/Text5"
-                android:layout_width="161dp"
-                android:layout_height="25dp"
-                android:layout_marginStart="4dp"
-                android:gravity="center"
-                android:text="Səfərə hazırsan?"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.578" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/img1ImageView"
